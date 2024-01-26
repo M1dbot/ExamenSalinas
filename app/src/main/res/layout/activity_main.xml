@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etPrimerParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer Parcial"/>
+
+    <EditText
+        android:id="@+id/etSegundoParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPrimerParcial"
+        android:layout_marginTop="16dp"
+        android:hint="Segundo Parcial"/>
+
+    <Button
+        android:id="@+id/btnCalcularPromedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSegundoParcial"
+        android:layout_marginTop="16dp"
+        android:text="Calcular Promedio"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalcularPromedio"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
+
